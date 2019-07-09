@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qfedu.ruituo.dao.NewsMapper">
+  <resultMap id="BaseResultMap" type="com.qfedu.ruituo.entity.News">
+    <result column="nid" jdbcType="INTEGER" property="nid" />
+    <result column="ntitle" jdbcType="VARCHAR" property="ntitle" />
+    <result column="news" jdbcType="VARCHAR" property="news" />
+    <result column="npageurl" jdbcType="VARCHAR" property="npageurl" />
+    <result column="nurl" jdbcType="VARCHAR" property="nurl" />
+    <result column="ntime" jdbcType="TIMESTAMP" property="ntime" />
+    <result column="nclass" jdbcType="VARCHAR" property="nclass" />
+  </resultMap>
+
+</mapper>

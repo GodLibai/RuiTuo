@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qfedu.ruituo.dao.CaseMapper">
+  <resultMap id="BaseResultMap" type="com.qfedu.ruituo.entity.Case">
+    <result column="cid" jdbcType="INTEGER" property="cid" />
+    <result column="trade" jdbcType="VARCHAR" property="trade" />
+    <result column="pixel" jdbcType="VARCHAR" property="pixel" />
+    <result column="area" jdbcType="VARCHAR" property="area" />
+    <result column="local" jdbcType="VARCHAR" property="local" />
+    <result column="ctime" jdbcType="TIMESTAMP" property="ctime" />
+    <result column="cpageurl" jdbcType="VARCHAR" property="cpageurl" />
+    <result column="ctitle" jdbcType="VARCHAR" property="ctitle" />
+    <result column="ctext" jdbcType="VARCHAR" property="ctext" />
+    <result column="curl" jdbcType="VARCHAR" property="curl" />
+  </resultMap>
+
+</mapper>

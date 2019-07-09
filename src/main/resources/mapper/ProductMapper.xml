@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qfedu.ruituo.dao.ProductMapper">
+  <resultMap id="BaseResultMap" type="com.qfedu.ruituo.entity.Product">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="pageurl" jdbcType="VARCHAR" property="pageurl" />
+    <result column="vclass" jdbcType="VARCHAR" property="vclass" />
+    <result column="vsize" jdbcType="VARCHAR" property="vsize" />
+    <result column="vurl" jdbcType="VARCHAR" property="vurl" />
+    <result column="vdid" jdbcType="INTEGER" property="vdid" />
+    <result column="cid" jdbcType="INTEGER" property="cid" />
+    <result column="pid" jdbcType="INTEGER" property="pid" />
+  </resultMap>
+
+</mapper>
